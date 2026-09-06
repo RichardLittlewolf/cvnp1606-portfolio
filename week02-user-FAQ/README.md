@@ -16,7 +16,8 @@
 
 During testing, the user selected **150%** and confirmed that it was a comfortable text size.
 
-**Evidence:**  
-`screenshots/text-size.png`
+**Evidence:**
+
+![Windows 11 Accessibility Text Size setting](screenshots/text-size.png)
 
 **When to escalate:** If the text is still difficult to read after adjusting the text size, check the Windows display scale and resolution. If display problems continue, collect the device and display information and escalate for driver or hardware review.

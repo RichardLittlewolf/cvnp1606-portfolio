@@ -18,7 +18,7 @@ During testing, the user selected **150%** and confirmed that it was a comfortab
 
 **Evidence:**
 
-![Windows 11 Accessibility Text Size setting]()<img width="885" height="640" alt="TextSize" src="https://github.com/user-attachments/assets/ab7da99c-5885-4987-993c-5f445ddef8dc" />
+![Windows 11 Accessibility Text Size setting](<img width="885" height="640" alt="TextSize" src="https://github.com/user-attachments/assets/ab7da99c-5885-4987-993c-5f445ddef8dc" />)
 
 
 **When to escalate:** If the text is still difficult to read after adjusting the text size, check the Windows display scale and resolution. If display problems continue, collect the device and display information and escalate for driver or hardware review.

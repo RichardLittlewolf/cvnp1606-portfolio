@@ -18,5 +18,8 @@ portal screenshots, logs) — not writeups about work, the work itself.
 | 02 | [User FAQ](week02-user-faq/) | Validated user-facing documentation |
 | ... | (add a row as each week lands) | |
 
+# What I can so now
+I can professionally update help desk tickets in a way that makes it easier for others to reproduce my results. I also know how to navigate through a Windows 11 machine and give users instructions in a way they can understand.
+
 Built with disclosed, verified AI assistance per the AI Technician's Code
 (see ai-disclosure.md files) — ask me about catching AI mistakes with evidence.

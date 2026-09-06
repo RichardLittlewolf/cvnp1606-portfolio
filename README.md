@@ -23,5 +23,5 @@ I can professionally update help desk tickets in a way that makes it easier for 
 
 
 
-Built with disclosed, verified AI assistance per the AI Technician's Code
-(see ai-disclosure.md files) — ask me about catching AI mistakes with evidence.
+**Built with disclosed, verified AI assistance per the AI Technician's Code
+(see ai-disclosure.md files) — ask me about catching AI mistakes with evidence.**

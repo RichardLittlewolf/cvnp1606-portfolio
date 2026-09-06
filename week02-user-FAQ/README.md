@@ -1,4 +1,4 @@
-# Week 2 - Windows 11 User FAQ
+# Windows 11 User FAQ
 
 ## How do I make text larger in Windows 11?
 

@@ -1,4 +1,4 @@
-# Week 2 - Windows 11 User FAQ
+# Windows 11 User FAQ
 
 **Ticket ID:** CVNP1606-W02-002
 

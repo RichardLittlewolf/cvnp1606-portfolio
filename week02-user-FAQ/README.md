@@ -1,54 +1,22 @@
 # Week 2 - Windows 11 User FAQ
 
-## Ticket Information
+## How do I make text larger in Windows 11?
 
-**Ticket ID:** CVNP1606-W02-002
+**User goal:** Make text easier to read without changing the display resolution or other unrelated system settings.
 
-**Submitted by:** Jordan Lee, Nexus Support Services Lead Technician
+**Tool path tested:** Settings > Accessibility > Text size
 
-**Affected Users:** ACME pilot group after Windows 11 refresh
+**Steps:**
+1. Open **Settings**.
+2. Select **Accessibility**.
+3. Select **Text size**.
+4. Move the slider to the preferred text size.
+5. Select **Apply**.
+6. Confirm that the new text size is comfortable to read.
 
-## Purpose
+During testing, the user selected **150%** and confirmed that it was a comfortable text size.
 
-The purpose of this FAQ is to provide users with clear instructions for common questions after the Windows 11 refresh. The FAQ includes verified steps and screenshots to help users navigate Windows 11 settings.
+**Evidence:**  
+`screenshots/text-size.png`
 
-## Issue 1 - Text Size Too Small
-
-A user reported that the text in Windows 11 was too small after the refresh.
-
-### Resolution
-
-The Windows 11 Text size setting can be found at:
-
-**Settings > Accessibility > Text size**
-
-The text size slider allows the user to increase the size of text throughout Windows and supported applications.
-
-During troubleshooting, the user tested the setting and determined that **150% text size** was comfortable for them.
-
-Users can select a different percentage based on their own preference.
-
-### Verification
-
-The setting was tested with the user, and the user confirmed that 150% text size resolved the issue.
-
-Evidence was captured showing the location of the Text size setting in Windows 11.
-
-## Evidence
-
-The screenshot included with this FAQ shows:
-
-- Windows 11 Settings
-- Accessibility
-- Text size
-- Text size preview and adjustment slider
-
-## Support Notes
-
-**Root Cause:** The default Windows text size was too small for the user's preferred viewing size after the Windows 11 refresh.
-
-**Solution:** Increased the Windows 11 Accessibility Text size setting to 150%.
-
-**Verification:** The user confirmed that the new text size was comfortable and resolved the reported issue.
-
-**Status:** Resolved
+**When to escalate:** If the text is still difficult to read after adjusting the text size, check the Windows display scale and resolution. If display problems continue, collect the device and display information and escalate for driver or hardware review.

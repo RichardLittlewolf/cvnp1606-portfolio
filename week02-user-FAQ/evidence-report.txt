@@ -1,0 +1,17 @@
+﻿=== CVNP1606-W02 Evidence Report ===
+Generated : 2026-09-06 13:09:57
+Host      : ACME11
+
+[SYSTEM]
+  Hostname : ACME11
+  OS       : Windows 10 Enterprise
+  Version  : 10.0.26200
+
+[DISPLAY SCALE]
+  AppliedDPI : 96 (100% = 96 dpi)
+
+[REQUIRED FILES]
+  README.md : FOUND (5568 bytes)
+  support-note-examples.md : FOUND (1327 bytes)
+
+Commit this file (evidence-report.txt) to your GitHub repo under week02-user-faq/.

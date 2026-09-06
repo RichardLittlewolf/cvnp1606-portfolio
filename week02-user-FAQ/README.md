@@ -115,3 +115,31 @@ During testing, the user selected **150%** and confirmed that it was a comfortab
 <img width="1013" height="694" alt="Storage" src="https://github.com/user-attachments/assets/fabd1b13-f7dc-46e6-8d89-396ef2eb8548" />
 
 **When to escalate:** If the drive is critically low on space and normal cleanup options do not provide enough storage, collect the storage usage information and escalate before deleting user files or organization-managed data.
+
+---
+
+# Troubleshooting Narrative
+
+## 1. Which user request or FAQ entry was hardest to validate?
+
+The printer FAQ was hard to validate. My VM only had Microsoft Print to PDF installed, so I couldn't test changing printers.
+
+## 2. What evidence did you check first?
+
+I went into the Printers & scanners to see what was available. I found Print to PDF and took a screenshot.
+
+## 3. What tool path did you test?
+
+I tested Settings > Bluetooth & devices > Printers & scanners. This brought me to the printers.
+
+## 4. What did you revise after testing?
+
+I was going to make the FAQ about changing the default printer. Since I only had one printer I changed it to how to find printers.
+
+## 5. How did you verify the final instruction?
+
+I went through the steps on my VM . I also took a screenshot showing the Printers & scanners page.
+
+## 6. What was the support impact of writing the instruction clearly?
+
+Having clear instructions makes it easier to walk a user through the steps. It also gives the support tech something they can follow.

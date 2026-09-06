@@ -1,142 +1,50 @@
-\# Validated Steps
+\# AI Validation
 
 
 
-The following Windows 11 procedures were tested to confirm that the paths and instructions used in the user FAQ are accurate.
+\## What I asked AI to help with
 
 
 
-\## 1. Change Text Size
+I used ChatGPT to help me organize my FAQ. I also used it to help with some of the wording and support notes.
 
 
 
-\*\*System used for testing:\*\* Windows 11
+\## Instructions I tested on the live Windows 11 system
 
 
 
-\*\*Exact path tested:\*\* Settings > Accessibility > Text size
+I tested all of the FAQ steps on VM. These are the paths I tested:
 
 
 
-\*\*Evidence filename:\*\* TextSize.png
+\- Settings > Accessibility > Text size
 
+\- Settings > Bluetooth \& devices > Printers \& scanners
 
+\- Task Manager > Processes > Memory
 
-\*\*Validation:\*\* Confirmed that the Text size page provides a slider for adjusting the size of text in Windows. The user tested the setting at 150% and confirmed that the new text size was comfortable to read.
+\- Control Panel > Programs > Programs and Features
 
+\- Windows Search > Storage settings > System > Storage
 
 
-\*\*Limitation or alternate path:\*\* Text size changes the size of text but does not change the overall size of all screen elements. Display scaling can be found under Settings > System > Display if additional sizing changes are needed.
 
+I went through each one myself and took screenshots to show that I tested them. For the text size one, I just went with 150%.
 
 
-\---
 
+\## AI suggestion I revised
 
 
-\## 2. Find and Manage Printers
 
+ChatGPT suggested doing an FAQ about changing the default printer. When I tried it on my VM, I only had Print to PDF. I couldn't really test changing the default printer with only one printer, so I changed the FAQ to how to find printers instead.
 
 
-\*\*System used for testing:\*\* Windows 11
 
+\## Wording I changed for a non-technical user
 
 
-\*\*Exact path tested:\*\* Settings > Bluetooth \& devices > Printers \& scanners
 
-
-
-\*\*Evidence filename:\*\* DefaultPrinter.png
-
-
-
-\*\*Validation:\*\* Confirmed that the Printers \& scanners page displays installed printers and provides options to add and manage printers.
-
-
-
-\*\*Limitation or alternate path:\*\* The test system only displayed Microsoft Print to PDF, so changing between multiple physical printers was not tested. Windows Search can also be used to search for "Printers \& scanners."
-
-
-
-\---
-
-
-
-\## 3. Check Application Memory Usage
-
-
-
-\*\*System used for testing:\*\* Windows 11
-
-
-
-\*\*Exact path tested:\*\* Task Manager > Processes > Memory
-
-
-
-\*\*Evidence filename:\*\* Memory.png
-
-
-
-\*\*Validation:\*\* Confirmed that Task Manager displays memory usage for running applications and processes. The Memory column can be selected to sort processes by memory usage.
-
-
-
-\*\*Limitation or alternate path:\*\* The test only identified memory usage. No processes were ended during testing. Task Manager can also be opened by pressing Ctrl + Shift + Esc.
-
-
-
-\---
-
-
-
-\## 4. Find the Uninstall Program Option
-
-
-
-\*\*System used for testing:\*\* Windows 11
-
-
-
-\*\*Exact path tested:\*\* Control Panel > Programs > Programs and Features
-
-
-
-\*\*Evidence filename:\*\* Uninstall.png
-
-
-
-\*\*Validation:\*\* Confirmed that Programs and Features displays installed programs and provides the option to uninstall or change supported programs.
-
-
-
-\*\*Limitation or alternate path:\*\* No program was actually uninstalled during testing. Some applications may require administrator approval or may be managed by the organization. Applications can also be managed through Settings > Apps > Installed apps.
-
-
-
-\---
-
-
-
-\## 5. Check Available Storage
-
-
-
-\*\*System used for testing:\*\* Windows 11
-
-
-
-\*\*Exact path tested:\*\* Windows Search > Storage settings > System > Storage
-
-
-
-\*\*Evidence filename:\*\* Storage.png
-
-
-
-\*\*Validation:\*\* Confirmed that the Storage page displays the capacity of the local drive and the amount of used and free storage space.
-
-
-
-\*\*Limitation or alternate path:\*\* No files were deleted and no cleanup actions were performed during testing. The Storage page can also be reached directly through Settings > System > Storage.
+For the text size FAQ, I used "Make text easier to read". I also didn't tell everyone to use 150% because that might be too big or too small for someone else. Instead, the instructions tell the user to move the slider until they find a size they like. I used 150% during my test because that was the size that worked for me.
 

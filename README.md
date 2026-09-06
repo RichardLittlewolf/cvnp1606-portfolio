@@ -19,7 +19,7 @@ portal screenshots, logs) — not writeups about work, the work itself.
 | ... | (add a row as each week lands) | |
 
 # What I can do now
-I can professionally update help desk tickets in a way that makes it easier for others to reproduce my results, navigate through a Windows 11 machine, and give users instructions in a way they can understand.
+I can build and verify a Windows 11 baseline by checking the system hardware, user accounts, updates, and security settings, and document my results using screenshots and PowerShell. I can professionally update help desk tickets in a way that makes it easier for others to reproduce my results, navigate through a Windows 11 machine, and give users instructions in a way they can understand.
 
 
 

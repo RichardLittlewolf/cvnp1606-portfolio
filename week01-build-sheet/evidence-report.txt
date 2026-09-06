@@ -1,0 +1,31 @@
+﻿=== CVNP1606-W01 Evidence Report ===
+Generated : 2026-09-06 18:21:18
+Host      : ACME11
+
+[SYSTEM]
+  Hostname   : ACME11
+  OS         : Windows 10 Enterprise
+  Version    : 10.0.26200
+  Firmware   : Uefi
+
+[LOCAL ACCOUNTS]
+  Administrator            Enabled: False
+  DefaultAccount           Enabled: False
+  Guest                    Enabled: False
+  Test                     Enabled: True
+  WDAGUtilityAccount       Enabled: False
+
+[ADMINISTRATORS GROUP]
+  ACME11\Administrator (Local)
+  O365\pz4854ed (AzureAD)
+  S-1-12-1-1077392928-1163393540-1150592132-596031056 (AzureAD)
+  S-1-12-1-297519891-1098661704-2997053593-2755974469 (AzureAD)
+
+[TPM]
+  TpmPresent   : True
+  TpmEnabled   : True
+
+[REQUIRED FILES]
+  inventory.txt : FOUND (362 bytes)
+
+Commit this file (evidence-report.txt) to your GitHub repo under week01-build-sheet/.

@@ -1,0 +1,34 @@
+﻿=== CVNP1606-W03 Evidence Report ===
+Generated : 2026-09-07 14:23:04
+Host      : ACME11
+
+[LOCAL ACCOUNTS]
+  Administrator                Enabled: False
+  DefaultAccount               Enabled: False
+  Guest                        Enabled: False
+  seasonal-staff               Enabled: True
+  Test                         Enabled: True
+  WDAGUtilityAccount           Enabled: False
+
+[SEASONAL-STAFF ACCOUNT]
+  seasonal-staff : FOUND | Enabled: True
+  In Administrators group : False  (should be False)
+
+[ADMINISTRATORS GROUP]
+  ACME11\Administrator (Local)
+  O365\pz4854ed (AzureAD)
+  S-1-12-1-1077392928-1163393540-1150592132-596031056 (AzureAD)
+  S-1-12-1-297519891-1098661704-2997053593-2755974469 (AzureAD)
+
+[USERS GROUP (standard accounts)]
+  ACME11\seasonal-staff (Local)
+  ACME11\Test (Local)
+  NT AUTHORITY\Authenticated Users (Unknown)
+  NT AUTHORITY\INTERACTIVE (Unknown)
+
+[REQUIRED FILES]
+  local-users-export.txt : FOUND (2934 bytes)
+  least-privilege-memo.md : FOUND (1215 bytes)
+  README.md : FOUND (4615 bytes)
+
+Commit this file (evidence-report.txt) to your GitHub repo under week03-account-audit/.

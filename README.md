@@ -16,12 +16,15 @@ portal screenshots, logs) — not writeups about work, the work itself.
 |------|--------|-------------|
 | 01 | [Build sheet](week01-build-sheet/) | Windows 11 build + evidence-backed baseline |
 | 02 | [User FAQ](week02-user-faq/) | Validated user-facing documentation |
+| 03 | [Account audit](week03-account-audit/) | Local accounts, group membership, and least privilege |
+| 04 | [Permissions matrix](week04-permissions-matrix/) | NTFS and share permissions with access testing |
 | ... | (add a row as each week lands) | |
 
 # What I can do now
+
 I can build and verify a Windows 11 baseline by checking the system hardware, user accounts, updates, and security settings, and document my results using screenshots and PowerShell. I can professionally update help desk tickets in a way that makes it easier for others to reproduce my results, navigate through a Windows 11 machine, and give users instructions in a way they can understand.
 
-
+I can audit Windows user accounts and group memberships and apply least privilege to make sure users only have the access they need. I can also configure and troubleshoot NTFS and share permissions, create security groups, test access using non-administrator accounts, and document the results with screenshots and PowerShell evidence.
 
 **Built with disclosed, verified AI assistance per the AI Technician's Code
 (see ai-disclosure.md files) — ask me about catching AI mistakes with evidence.**

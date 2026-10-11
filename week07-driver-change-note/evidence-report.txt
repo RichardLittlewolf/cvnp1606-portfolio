@@ -1,0 +1,38 @@
+﻿=== CVNP1606-W07 Evidence Report ===
+Generated : 2026-10-11 18:33:57
+Host      : ACME11
+
+[PNP DEVICES - NON-OK STATUS]
+  Status: Unknown      Class: Volume               Name: Volume
+  Status: Unknown      Class: Monitor              Name: Generic Monitor
+
+[PNP DEVICES - ALL (summary by status)]
+  OK               : 196 device(s)
+  Unknown          : 2 device(s)
+
+[RECENTLY MODIFIED DRIVERS (last 30 days)]
+  No drivers with dates in the last 30 days.
+
+[REQUIRED FILES]
+  hardware-inventory.txt : FOUND (79146 bytes)
+  change-note.md : FOUND (2196 bytes)
+  rollback-plan.md : FOUND (2023 bytes)
+  README.md : FOUND (5700 bytes)
+
+[AI DOCUMENTATION]
+  ai-disclosure.md : FOUND (717 bytes)
+  ai-validation.md : FOUND (1062 bytes)
+
+[SCREENSHOT INVENTORY]
+  FOUND: Device-Driver-Before.png
+  FOUND: Device-Fault-Before.png
+  FOUND: Device-General-After.png
+  FOUND: Device-General-Before.png
+  FOUND: Device-Hardware-ID-Before.png
+  FOUND: Lab-Fault-Execution.png
+  FOUND: Lab-Fault-Restore.png
+  FOUND: PowerShell-Device-After.png
+  FOUND: PowerShell-Device-Fault-Before.png
+  Total screenshots: 9
+
+Commit evidence-report.txt to your GitHub repo under week07-driver-change-note/.

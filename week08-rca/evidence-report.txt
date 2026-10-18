@@ -1,0 +1,67 @@
+﻿CVNP1606 - WEEK 08 EVIDENCE REPORT
+Generated: 2026-10-18 16:43:59
+Computer: ACME11
+Folder: C:\Users\pz4854ed\Documents\cvnp1606-portfolio\week08-rca
+========================================
+
+[REQUIRED FILES]
+FOUND: README.md
+FOUND: event-timeline.md
+FOUND: event-export.txt
+FOUND: ai-validation.md
+FOUND: troubleshooting-narrative.md
+FOUND: collect-evidence.ps1
+
+[SCREENSHOT EVIDENCE]
+FOUND: Screenshots folder
+Screenshot count: 10
+FOUND: W08-AllTime-Critical-Error.png
+FOUND: W08-AllTime-Events-Bottom.png
+FOUND: W08-Event1001-BugCheck.png
+FOUND: W08-Event41-KernelPower.png
+FOUND: W08-Event6008-UnexpectedShutdown.png
+FOUND: W08-PowerShell-Event-Query.png
+FOUND: W08-PowerShell-Export-Verification.png
+FOUND: W08-PowerShell-No-Reboot-Events.png
+FOUND: W08-System-EventViewer.png
+FOUND: week08rcaScreenshotsW08CleanBaselineSnapshot.png
+
+[SYSTEM LOG - CRITICAL AND ERROR]
+Date range: Last 7 days
+Events found: 23
+10/18/2026 4:20:42 PM | ID 11 | Microsoft-Windows-Security-Kerberos | Error
+10/18/2026 4:08:12 PM | ID 1001 | Microsoft-Windows-WER-SystemErrorReporting | Error
+10/18/2026 4:08:10 PM | ID 41 | Microsoft-Windows-Kernel-Power | Critical
+10/18/2026 4:08:10 PM | ID 162 | volmgr | Error
+10/18/2026 4:08:13 PM | ID 6008 | EventLog | Error
+10/18/2026 4:08:05 PM | ID 124 | Microsoft-Windows-Kernel-Boot | Error
+10/18/2026 4:08:05 PM | ID 42 | Microsoft-Windows-Hyper-V-Hypervisor | Error
+10/18/2026 3:16:21 PM | ID 124 | Microsoft-Windows-Kernel-Boot | Error
+10/18/2026 3:16:21 PM | ID 42 | Microsoft-Windows-Hyper-V-Hypervisor | Error
+10/18/2026 3:15:19 PM | ID 124 | Microsoft-Windows-Kernel-Boot | Error
+10/18/2026 3:15:19 PM | ID 42 | Microsoft-Windows-Hyper-V-Hypervisor | Error
+10/18/2026 3:14:03 PM | ID 41 | Microsoft-Windows-Kernel-Power | Critical
+10/18/2026 3:15:35 PM | ID 6008 | EventLog | Error
+10/18/2026 3:13:56 PM | ID 124 | Microsoft-Windows-Kernel-Boot | Error
+10/18/2026 3:13:56 PM | ID 42 | Microsoft-Windows-Hyper-V-Hypervisor | Error
+10/18/2026 2:58:00 PM | ID 20 | Microsoft-Windows-WindowsUpdateClient | Error
+10/18/2026 2:48:16 PM | ID 20 | Microsoft-Windows-WindowsUpdateClient | Error
+10/18/2026 2:22:22 PM | ID 11 | Microsoft-Windows-Security-Kerberos | Error
+10/18/2026 2:22:09 PM | ID 124 | Microsoft-Windows-Kernel-Boot | Error
+10/18/2026 2:22:09 PM | ID 42 | Microsoft-Windows-Hyper-V-Hypervisor | Error
+10/18/2026 2:19:18 PM | ID 11 | Microsoft-Windows-Security-Kerberos | Error
+10/18/2026 2:18:38 PM | ID 124 | Microsoft-Windows-Kernel-Boot | Error
+10/18/2026 2:18:38 PM | ID 42 | Microsoft-Windows-Hyper-V-Hypervisor | Error
+
+[REBOOT EVENT CHECK]
+FOUND: Event ID 41 | 10/18/2026 3:14:03 PM | Microsoft-Windows-Kernel-Power
+FOUND: Event ID 6008 | 10/18/2026 3:15:35 PM | EventLog
+FOUND: Event ID 41 | 10/18/2026 4:08:10 PM | Microsoft-Windows-Kernel-Power
+FOUND: Event ID 1001 | 10/18/2026 4:08:12 PM | Microsoft-Windows-WER-SystemErrorReporting
+FOUND: Event ID 6008 | 10/18/2026 4:08:13 PM | EventLog
+
+[FINAL VALIDATION]
+PASS: No missing required files detected.
+
+Note: This report checks file presence and event data.
+It does not verify the accuracy of the root-cause analysis.

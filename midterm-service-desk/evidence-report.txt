@@ -1,0 +1,57 @@
+﻿=== CVNP1606-W09 Evidence Report (Midterm) ===
+Generated : 2026-10-31 16:11:13
+Host      : 1606MIDTERM
+
+[TICKET A - ACCOUNT STATE]
+  1606Administrator | Enabled: True | LockedOut: 
+  Administrator | Enabled: False | LockedOut: 
+  DefaultAccount | Enabled: False | LockedOut: 
+  Guest | Enabled: False | LockedOut: 
+  WDAGUtilityAccount | Enabled: False | LockedOut: 
+
+[TICKET B - TOP PROCESSES (CPU)]
+  explorer | CPU: 67.2 seconds | Memory: 287.5 MB
+  Taskmgr | CPU: 32.2 seconds | Memory: 128.4 MB
+  System | CPU: 29.3 seconds | Memory: 0.1 MB
+  dwm | CPU: 25.2 seconds | Memory: 116.1 MB
+  MsMpEng | CPU: 20.5 seconds | Memory: 168.3 MB
+  SearchHost | CPU: 9.2 seconds | Memory: 109 MB
+  svchost | CPU: 5.8 seconds | Memory: 17.2 MB
+  svchost | CPU: 5.4 seconds | Memory: 26.3 MB
+
+[TICKET C - PNP DEVICE STATUS]
+  Status: Unknown | Class: SoftwareDevice | Name: Bluetooth
+  Status: Unknown | Class: AudioEndpoint | Name: Speakers (High Definition Audio Device)
+  Status: Unknown | Class: MEDIA | Name: Microsoft Streaming Service Proxy
+  Status: Unknown | Class: Processor | Name: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+  Status: Unknown | Class: Processor | Name: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+  Status: Unknown | Class: AudioEndpoint | Name: Microphone (High Definition Audio Device)
+  Status: Unknown | Class: Bluetooth | Name: Generic Bluetooth Adapter
+  Status: Unknown | Class: SoftwareDevice | Name: Microsoft Device Association Root Enumerator
+  Status: Unknown | Class: Volume | Name: Volume
+  Status: Unknown | Class: Monitor | Name: Generic Monitor
+  Status: Unknown | Class: Bluetooth | Name: Microsoft Bluetooth Enumerator
+  Status: Unknown | Class: Bluetooth | Name: Bluetooth Device (RFCOMM Protocol TDI)
+  Status: Unknown | Class: Net | Name: Bluetooth Device (Personal Area Network)
+
+[TICKET D - NETWORK STATE]
+  Ethernet0 | IP: 192.168.145.132/24 | Gateway: 192.168.145.2
+  Ping 127.0.0.1: REACHABLE
+  Ping 8.8.8.8: REACHABLE
+
+[SECURITY LOG - EVENTS 4625 AND 4740 (LAST 24 HOURS)]
+  No matching events found in the last 24 hours.
+
+[REQUIRED FILES]
+  ticket-pack.md: FOUND (8824 bytes)
+  evidence\change-note.md: FOUND (1560 bytes)
+  ai-disclosure.md: FOUND (1073 bytes)
+
+[TICKET SCREENSHOT CHECK]
+  Ticket-A: FOUND (2 screenshots)
+  Ticket-B: FOUND (5 screenshots)
+  Ticket-C: FOUND (3 screenshots)
+  Ticket-D: FOUND (4 screenshots)
+
+Review all evidence before submitting.
+Commit evidence-report.txt to GitHub under midterm-service-desk/.

@@ -1,0 +1,11 @@
+WEEK 11 — REQUIRED NEXT STEPS BEFORE SUBMISSION
+
+1. Review all Markdown drafts and correct or personalize anything that does not match your own work. Rewrite the README portfolio summary in your own words.
+2. Open Intune and save a screenshot showing ACME-Pilot-Devices under Included groups for the compliance policy (not Excluded groups).
+3. Open Windows VM > Settings > Accounts > Sign-in options. Take a screenshot, document observed Hello options, and place image in screenshots/ folder. A local PIN does not prove Windows Hello for Business.
+4. Confirm that screenshots do not show passwords, recovery keys, personal email, private IDs, or other sensitive information. Included screenshots were cropped for this purpose.
+5. Get instructor's original collect-evidence.ps1 from the Brightspace Lab Scripts module. Place it next to README.md. Run as Administrator from week11-compliance-ca/.
+6. Verify evidence-report.txt lists all required files as FOUND and no NOT FOUND, and add any filenames the script requires. If your assignment needs instructor-provided evidence for Conditional Access, add it clearly labeled as such; do not claim live deployment.
+7. Commit week11-compliance-ca/ to GitHub cvnp1606-portfolio and submit repository URL to Brightspace before deadline.
+
+Conditional Access licensing blocker: Entra Free; P1/P2 required. Policy analyzed, NOT created. No live sign-in logs captured.

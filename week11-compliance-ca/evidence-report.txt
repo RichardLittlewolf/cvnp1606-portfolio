@@ -1,0 +1,28 @@
+﻿=== CVNP1606-W11 Evidence Report ===
+Generated : 2026-11-08 16:28:51
+Host      : ACME11
+
+[BITLOCKER STATUS]
+  Drive: C:  Protection: Off  EncryptionPct: 0%
+
+[DEFENDER STATUS]
+  AntivirusEnabled       : True
+  RealTimeProtection     : True
+  AntivirusSignatureAge  : 0 day(s)
+
+[WINDOWS HELLO]
+  DevicePasswordLessBuildVersion: 2
+
+[DEVICE JOIN STATE]
+               AzureAdJoined : YES
+            EnterpriseJoined : NO
+                DomainJoined : NO
+             WorkplaceJoined : NO
+
+[REQUIRED FILES]
+  compliance-policy-summary.md : FOUND (2012 bytes)
+  conditional-access-memo.md : FOUND (1463 bytes)
+  laps-hello-note.md : FOUND (2061 bytes)
+  README.md : FOUND (5395 bytes)
+
+Commit this file (evidence-report.txt) to your GitHub repo under week11-compliance-ca/.

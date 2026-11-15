@@ -1,0 +1,12 @@
+WEEK 12 SUBMISSION — FINAL STEPS
+
+1. Copy these files into the existing cvnp1606-portfolio\week12-autopilot-profiles folder, or extract this zip inside the portfolio folder so the path is not accidentally nested twice.
+2. Download original collect-evidence.ps1 from Brightspace. Place it in week12-autopilot-profiles.
+3. In PowerShell, navigate to that folder and run:
+   powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\collect-evidence.ps1
+4. Open evidence-report.txt. Check for any NOT FOUND, and fix named missing files before final run.
+5. Review README portfolio card in your own words and redact any private account/device identifiers before uploading public screenshots.
+6. From the repository root: git status; git add week12-autopilot-profiles; git commit -m "Complete Week 12 Autopilot profiles"; git push origin main.
+7. Open the public repo link to confirm folder/files, then submit repo URL in Brightspace.
+
+IMPORTANT: Intune policy SUCCESS is verified, but the device is still NOT COMPLIANT, and the live Autopilot/ESP first boot is not verified.
